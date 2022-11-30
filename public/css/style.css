@@ -1,3 +1,43 @@
 h3 {
   color: blue;
 }
+
+#nonquadratorosso {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+
+/* Background dei miei div */
+
+.aqua {
+  background-color: aqua;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.green {
+  background-color: lightgreen;
+}
+
+div div p {
+  background-color: darkorchid;
+}
+
+/* Liste */
+
+ul li {
+  background-color: aquamarine;
+}
+
+ul li ul .qualcosa {
+  background-color: coral;
+}
