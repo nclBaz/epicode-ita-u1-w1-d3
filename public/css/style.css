@@ -1,9 +1,23 @@
+/* * {
+  border: 1px solid black;
+} */
+
+/* :root {
+  font-size: 4vh;
+} */
+
+body {
+  margin: 0;
+}
+
 h3 {
   color: blue;
+  font-family: Lato, Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 900;
 }
 
 #nonquadratorosso {
-  background-color: blue;
+  background-color: rgba(217, 37, 37, 0.623);
   width: 100px;
   height: 100px;
 }
@@ -11,7 +25,7 @@ h3 {
 .square {
   height: 200px;
   width: 200px;
-  background-color: red;
+  background-color: rgb(232, 159, 159);
 }
 
 /* Background dei miei div */
@@ -34,10 +48,19 @@ div div p {
 
 /* Liste */
 
-ul li {
+/* ul li {
   background-color: aquamarine;
 }
 
 ul li ul .qualcosa {
   background-color: coral;
+} */
+
+:checked {
+  height: 20px;
+  width: 20px;
+}
+
+.hoverme:hover + p {
+  background-color: green;
 }
